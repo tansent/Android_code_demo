@@ -19,7 +19,7 @@ import android.view.View;
 This chunk of code is from one of my app named "market" in my github.The snapshot of this very page shows that there is a listview
 with relatively chubby items inside. Yet, you cannot find massive code with all the adapters, holders and Json parsing code in this class.
 When I develope a project to a certain degree, I will decouple and sumarize the code utilizing interface, generic type and abstract methods
-so that if there is any needs in the future to modify or expand the project, it can be done in an instance.
+so that if there is any needs in the future to modify or expand the project, it can be done in an instant.
 */
 
 public class GameFragment extends BaseFragment {

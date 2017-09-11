@@ -13,13 +13,13 @@ import android.view.View;
 
 
 /*
-这段代码是我github“market”项目中一个fragment，对应截图的内容。在截图中，对应的页面有listview，每个条目也有很多内容，这是个需要服务器的应用，
+这段代码是我github “market” 项目中一个fragment，对应截图的内容。在截图中，对应的页面有listview，每个条目也有很多内容，这是个需要服务器的应用，
 所以条目内容也要联网下载解析。我希望展示的是，我写项目会让代码的耦合性很低，以便于未来的扩展和维护，这样也会对多人联合完成项目的效率起到增益效果
 
 This chunk of code is from one of my app named "market" in my github.The snapshot of this very page shows that there is a listview
-with relatively chubby items inside. Yet, you cannot find massive code with all the adapters, holders and Json parsing code in this class.
-When I develope a project to a certain degree, I will decouple and sumarize the code utilizing interface, generic type and abstract methods
-so that if there is any needs in the future to modify or expand the project, it can be done in an instant.
+with relatively chubby items inside. Yet, you cannot find massive code with all the adapters, holders, downloading and Json parsing code 
+in this class. When I develope a project to a certain degree, I will decouple and sumarize the code utilizing interface, generic type 
+and abstract methods so that if there is any needs in the future to modify or expand the project, it can be done in an instant.
 */
 
 public class GameFragment extends BaseFragment {
